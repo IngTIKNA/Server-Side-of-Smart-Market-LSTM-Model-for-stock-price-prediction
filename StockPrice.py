@@ -109,6 +109,7 @@ plt.show()
 #print("Model Summary")
 #model.summary()
 #--------------------------------------------------------------------------------------------------------------
+model.save('TSLA_model.h5')  # creates a HDF5 file 'my_model.h5'
 
 
 randArr=[]
